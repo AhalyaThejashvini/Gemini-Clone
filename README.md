@@ -1,8 +1,14 @@
-# React + Vite
+# Gemini AI Assistant
+Gemini is an AI-powered assistant that helps you with various tasks through a conversational interface. It allows users to interact with predefined prompts, ask for help with summarizing concepts, brainstorming ideas, and improving code readability, all powered by AI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
+ Predefined Card Prompts: Interact with different pre-set cards like brainstorming team bonding activities, summarizing concepts, and more.
+ Text Input: Users can enter their own prompts to get responses from the AI.
+ AI Responses: Receive answers and suggestions based on the input.
+ Loading State: Visual indication while the AI processes the request.
+ Modular Design: The app is built with modular components for better maintainability and scalability.
+ 
+# Tech Stack
+ Frontend: React, CSS (for styling)
+ State Management: React Context API
+ Assets: Custom icons and images used for card interaction
